@@ -1,0 +1,44 @@
+name: women_who_build
+description: "A mobile-first financial hub for African female entrepreneurs. Turn ideas into income."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  shared_preferences: ^2.2.0
+  intl: ^0.19.0
+  path_provider: ^2.1.0
+  sqflite: ^2.3.0
+  flutter_local_notifications: ^14.1.0
+  share_plus: ^7.2.0
+  url_launcher: ^6.2.0
+  flutter_animate: ^4.2.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+          weight: 700
